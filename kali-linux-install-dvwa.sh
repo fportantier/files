@@ -15,6 +15,7 @@ rm -rf DVWA-master
 wget "https://github.com/ethicalhack3r/DVWA/archive/master.zip"
 
 unzip -q master.zip
+rm -f master.zip
 
 mv DVWA-master dvwa
 
